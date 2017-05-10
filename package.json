@@ -1,0 +1,31 @@
+{
+  "name": "minesweeper",
+  "version": "1.0.0",
+  "description": "minesweeper kata",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "npm run test:watch & npm start",
+    "test": "mocha  --colors ./**/*.spec.js",
+    "test:watch": "npm test -w"
+  },
+  "author": {
+    "name": "Ferenc Sticza",
+    "email": "ferenc.sticza@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fsticza/minesweeper.git"
+  },
+  "keywords": [
+    "node",
+    "minesweeper",
+    "kata"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "eslint": "3.19.0",
+    "mocha": "^2.4.5"
+  }
+}
